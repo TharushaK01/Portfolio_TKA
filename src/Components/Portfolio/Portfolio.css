@@ -1,0 +1,58 @@
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+}
+.portfolio h2{
+    font-size: 30px;
+    text-align: center;
+}
+.type-folio{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+}
+.foliorow{
+    display: flex;
+    flex-direction: column;
+}
+.foliorow h3{
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 20px;
+    background: linear-gradient(267deg, #000cff 90%, #36b6ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.folio{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 20px 0;
+    justify-content: center;
+}
+.card img{
+    width: 435px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.card img:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.foliorow .see_more {
+    align-self: flex-end;      
+    display: inline-block;     
+    padding: 15px 40px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;          
+}
+.foliorow .see_more:hover{
+    background: #fff;
+    color: #000;
+    font-weight: 600;
+}

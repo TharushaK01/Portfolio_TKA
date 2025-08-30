@@ -34,21 +34,23 @@ const About = () => {
                         </div>
                         <div className="experience-right">
                             <h4>01. 2025 to 07. 2025</h4>
-                            <p>Developed multiple websites using WordPress, leveraging Divi and Elementor theme builders to create responsive, user-friendly interfaces.</p>
-                            <p>Enhanced proficiency in HTML, CSS, JavaScript, and PHP to implement custom design and functionality</p>
-                            <p>Acquired knowledge in SEO best practices to improve site visibility and search rankings.</p>
-                            <p>Focused on website performance optimization, including understanding and improving LCP (Largest Contentful Paint) and CLS (Cumulative Layout Shift) metrics for better user experience and Core Web Vitals compliance.</p>
+                            <div className="experience-point"><li><p>Developed multiple websites using <span>WordPress</span>, leveraging <span>Divi and Elementor </span>theme builders to create responsive, user-friendly interfaces.</p></li></div>
+                            <div className="experience-point"><li><p>Enhanced proficiency in <span>HTML, CSS, JavaScript, and PHP</span> to implement custom design and functionality</p></li></div>
+                            <div className="experience-point"><li><p>Acquired knowledge in <span>SEO</span> best practices to improve site visibility and search rankings.</p></li></div>
+                            <div className="experience-point"><li><p>Focused on website performance optimization, including understanding and improving <span>LCP (Largest Contentful Paint) and CLS (Cumulative Layout Shift)</span> metrics for better user experience and Core Web Vitals compliance.</p></li></div>
                         </div>
                     </div>
                 </div>
                 <div className="about-education">
                     <h3>Education</h3>
+                    <div className="education">
                     <div className="education-left">
-                        <h4>Bachelor of Science (Hons) degree in Computer Sciences.</h4>
-                        <p>Sabaragamuwa University of Sri Lanka</p>
+                        <h4>Bachelor of Science (Hons) in Computer Sciences.</h4>
+                        <h5>Sabaragamuwa University of Sri Lanka</h5>
                     </div>
                     <div className="education-right">
                         <h4>2020 to 2025</h4>
+                    </div>
                     </div>
                 </div>
             </div>
