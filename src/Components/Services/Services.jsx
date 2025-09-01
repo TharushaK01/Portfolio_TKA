@@ -22,6 +22,23 @@ const Services = () => {
             <div className="readmore">Read More &rarr;</div>
         </div>
     </div>
+    <div className="about-achievments">
+        <div className="about-achievement">
+            <h3>2+</h3>
+            <p>Years of Experience</p>
+        </div>
+        <hr/>
+          <div className="about-achievement">
+            <h3>40+</h3>
+            <p>Projects Completed</p>
+        </div>
+        <hr/>
+          <div className="about-achievement">
+            <h3>30+</h3>
+            <p>Satisfied Clients</p>
+        </div>
+        <hr/>
+    </div>
     </div>
   )
 }
