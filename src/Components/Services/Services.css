@@ -68,6 +68,7 @@
     transition: 0.5s;
 }
 .about-achievement h3{
+    cursor: pointer;
     font-size: 40px;
     background: linear-gradient(264deg, #000cff 2%, #36b6ff 100%);
     background-clip: text;
@@ -77,4 +78,8 @@
 .about-achievement p{
     font-size: 18px;
     text-align: center;
+}
+.about-achievement h3:hover{
+    transform: scale(1.40);
+    transform: 0.5s;
 }
