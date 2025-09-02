@@ -1,0 +1,47 @@
+.webdeveopments {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 80px;
+}
+.webdev {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+.webdev h1 {
+  font-size: 34px;
+  text-align: center;
+  align-items: center;
+}
+.webdev-list {
+  list-style-type: none;
+  font-size: 18px;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(2, auto);
+  flex-wrap: nowrap;
+  gap: 15px;
+  overflow-x: auto;
+  margin: 40px 0;
+  padding: 0;
+}
+.webdev-list li {
+  text-align: center;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.webdev-list li:hover {
+  background: #fff;
+  color: #000;
+}
+
