@@ -44,15 +44,23 @@
 .foliorow .see_more {
     align-self: flex-end;      
     display: inline-block;     
-    padding: 15px 40px;
-    border-radius: 50px;
-    border: 2px solid #fff;
+    padding: 10px 20px;
     cursor: pointer;
     text-align: center;
     margin-top: 10px;          
 }
-.foliorow .see_more:hover{
-    background: #fff;
-    color: #000;
-    font-weight: 600;
+.foliorow .see_more a {
+  display: inline-block; 
+  padding: 10px 20px; 
+  border-radius: 50px;
+  color: #ffffff; 
+  text-decoration: none; 
+  border: 2px solid #fff;
+  transition: all 0.3s ease; 
+}
+
+.foliorow .see_more:hover a {
+  color: #000;
+  font-weight: 600;
+  background: #fff;
 }

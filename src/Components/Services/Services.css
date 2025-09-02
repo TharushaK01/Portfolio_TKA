@@ -7,6 +7,7 @@
 .services h2{
     font-size: 30px;
     text-align: center;
+    margin-top: 120px;
 }
 .services-row{
     display: flex;

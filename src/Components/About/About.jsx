@@ -40,6 +40,19 @@ const About = () => {
                             <div className="experience-point"><li><p>Focused on website performance optimization, including understanding and improving <span>LCP (Largest Contentful Paint) and CLS (Cumulative Layout Shift)</span> metrics for better user experience and Core Web Vitals compliance.</p></li></div>
                         </div>
                     </div>
+                     <div className="professional-experience">
+                        <div className="experience-left">
+                            <h4>Creative Marketing Designer & Social Media Manager</h4>
+                            <h5>Infinity Journery Advisor, Habarana, <br/>Sri Lanka.</h5>
+                        </div>
+                        <div className="experience-right">
+                            <h4>05. 2023 to Present</h4>
+                            <div className="experience-point"><li><p>Successfully managed and optimized the company’s <span>social media platforms,</span> increasing engagement and brand visibility.</p></li></div>
+                            <div className="experience-point"><li><p>Designed compelling visual content using <span>Adobe Photoshop, Illustrator, Premiere Pro, and After Effects</span> to enhance brand identity and audience reach.</p></li></div>
+                            <div className="experience-point"><li><p><span>Planned, created, and executed social media campaigns</span> aligned with marketing objectives to drive customer interaction and conversions.</p></li></div>
+                            <div className="experience-point"><li><p>Managed <span>paid social media ad campaigns, monitoring performance metrics</span> and implementing strategies to maximize ROI.</p></li></div>
+                        </div>
+                    </div>
                 </div>
                 <div className="about-education">
                     <h3>Education</h3>

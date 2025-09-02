@@ -9,6 +9,7 @@ import Kasun from '../../assets/Kasun_1.webp'
 import Massa from '../../assets/Massa.webp'
 import Manulak from '../../assets/Manulak.webp'
 import Thawana from '../../assets/Thawana.webp'
+import { Link } from 'react-router-dom'
 
 const Portfolio = () => {
   return (
@@ -28,7 +29,7 @@ const Portfolio = () => {
                             <img src={Cargo_Ton} alt=''/>
                         </div>
                     </div>
-                    <div className="see_more">See More &rarr;</div>
+                    <div className="see_more"><Link to="/web-folio">See More &rarr;</Link></div>
             </div>
 
              <div className="foliorow">
@@ -44,7 +45,7 @@ const Portfolio = () => {
                             <img src={Kasun} alt=''/>
                         </div>
                     </div>
-                    <div className="see_more">See More &rarr;</div>
+                    <div className="see_more"><Link to="/flayer-folio">See More &rarr;</Link></div>
             </div>
 
                 <div className="foliorow">
@@ -60,7 +61,7 @@ const Portfolio = () => {
                             <img src={Thawana} alt=''/>
                         </div>
                     </div>
-                    <div className="see_more">See More &rarr;</div>
+                    <div className="see_more"><Link to="/logo-folio">See More &rarr;</Link></div>
             </div>
             
         </div>
