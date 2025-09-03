@@ -32,67 +32,25 @@ const WebFolio = () => {
           <li>AdobeXD</li>
           <li>Figma</li>
         </ul>
-        <div className="folio">
-          <div className="card">
-            <img src={Pramodya_Mobile} alt="Pramodya Mobile" />
-            <div className="card-links">
-              <a
-                href="https://github.com/username/project"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaGithub size={24} />
-              </a>
-              <a
-                href="https://liveproject.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaExternalLinkAlt size={24} />
-              </a>
+      </div>
+      <div className="Dynamic_Webfolio">
+        <h2>Dynamic Webfolio</h2>
+          <div className="card-area">
+            <div className="wrapper">
+              <div className="box-area">
+                <div className="box">
+                  <img src={Cargo_Ton} alt="" />
+                  <h3>Cargo Ton Website</h3>
+                  <ul>
+                    <li>React.js</li>
+                    <li>JavaScript (ES6+)</li>
+                    <li>HTML5</li>
+                    <li>Tailwind</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
-
-          <div className="card">
-            <img src={Amre} alt="Amre" />
-            <div className="card-links">
-              <a
-                href="https://github.com/username/project"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaGithub size={24} />
-              </a>
-              <a
-                href="https://liveproject.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaExternalLinkAlt size={24} />
-              </a>
-            </div>
-          </div>
-
-          <div className="card">
-            <img src={Cargo_Ton} alt="Cargo_Ton" />
-            <div className="card-links">
-              <a
-                href="https://github.com/username/project"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaGithub size={24} />
-              </a>
-              <a
-                href="https://liveproject.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaExternalLinkAlt size={24} />
-              </a>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );
