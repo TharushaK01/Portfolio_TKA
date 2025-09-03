@@ -35,22 +35,55 @@ const WebFolio = () => {
       </div>
       <div className="Dynamic_Webfolio">
         <h2>Dynamic Webfolio</h2>
-          <div className="card-area">
-            <div className="wrapper">
-              <div className="box-area">
-                <div className="box">
-                  <img src={Cargo_Ton} alt="" />
-                  <h3>Cargo Ton Website</h3>
-                  <ul>
-                    <li>React.js</li>
-                    <li>JavaScript (ES6+)</li>
-                    <li>HTML5</li>
-                    <li>Tailwind</li>
-                  </ul>
+        <div className="card-area">
+          <div className="wrapper">
+            <div className="box-area">
+              <div className="box">
+                <img src={Cargo_Ton} alt="" />
+                <h3>Cargo Ton Website</h3>
+                <ul>
+                  <li>React.js</li>
+                  <li>JavaScript (ES6+)</li>
+                  <li>HTML5</li>
+                  <li>Tailwind</li>
+                </ul>
+                <div className="icon">
+                  <FaGithub className="webdev-icon" />
+                  <FaExternalLinkAlt className="webdev-icon" />
+                </div>
+              </div>
+              <div className="box">
+                <img src={Cargo_Ton} alt="" />
+                <h3>Cargo Ton Website</h3>
+                <ul>
+                  <li>React.js</li>
+                  <li>JavaScript (ES6+)</li>
+                  <li>HTML5</li>
+                  <li>Tailwind</li>
+                </ul>
+                <div className="icon">
+                  <FaGithub className="webdev-icon" />
+                  <FaExternalLinkAlt className="webdev-icon" />
+                </div>
+              </div>
+
+              <div className="box">
+                <img src={Cargo_Ton} alt="" />
+                <h3>Cargo Ton Website</h3>
+                <ul>
+                  <li>React.js</li>
+                  <li>JavaScript (ES6+)</li>
+                  <li>HTML5</li>
+                  <li>Tailwind</li>
+                </ul>
+                <div className="icon">
+                  <FaGithub className="webdev-icon" />
+                  <FaExternalLinkAlt className="webdev-icon" />
                 </div>
               </div>
             </div>
           </div>
+        </div>
       </div>
     </div>
   );
