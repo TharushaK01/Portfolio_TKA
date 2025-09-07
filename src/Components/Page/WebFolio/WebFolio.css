@@ -44,43 +44,49 @@
   background: #fff;
   color: #000;
 }
-.Dynamic_Webfolio{
+.Dynamic_Webfolio {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-.Dynamic_Webfolio h2{
+.Dynamic_Webfolio h2 {
   font-size: 30px;
-  align-items: left;
   text-align: left;
 }
-.wrapper{
+.wrapper {
   padding: 10px 0;
 }
-.card-area{
- padding: 50px 0;
+.card-area {
+  padding: 50px 0;
 }
-.box-area{  
+.box-area {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 40px;
 }
- .box{
+.box {
   position: relative;
   overflow: hidden;
-  box-shadow: 5px 5px 15px rgb(0,0,0,0.5);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
-    transition: transform 0.5s; 
+  transition: transform 0.5s;
 }
-.box img{
+.box img {
   width: 100%;
   max-width: 435px;
   border-radius: 10px;
+  display: block;
+  height: auto;
 }
-.overlay{
-  height: 0;
+.box::after {
+  content: "";
+  display: block;
+  margin-bottom: 10%; /* Vertical spacing (1) as a percentage of image height */
+}
+.overlay {
   width: 100%;
-  background: linear-gradient(transparent,#1c1c1c 58%);
+  height: 0;
+  background: linear-gradient(transparent, rgba(28, 28, 28, 0.9) 58%);
   border-radius: 10px;
   position: absolute;
   left: 0;
@@ -90,32 +96,32 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 0 40px;
+  padding: 0 5%; /* Horizontal spacing (2) as a percentage of image width */
   text-align: center;
   font-size: 14px;
   transition: height 0.5s;
 }
-.overlay h3{
+.box:hover .overlay {
+  height: 100%;
+}
+.overlay h3 {
   margin-bottom: 5%;
-  margin-top: 80%;
+  margin-top: 10%;
   font-size: 24px;
   letter-spacing: 2px;
-  margin-bottom: 30px;
+  color: white;
 }
-.overlay ul{
+.overlay ul {
   list-style-type: none;
   font-size: 18px;
   display: flex;
-  grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(2, auto);
   flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
-  /* overflow-x: auto; */
   margin: 10px 0;
   padding: 0;
 }
-.overlay ul li{
+.overlay ul li {
   text-align: center;
   border: 2px solid white;
   color: white;
@@ -124,15 +130,21 @@
   cursor: pointer;
   white-space: nowrap;
 }
-.box:hover {
-  transform: scale(1.04);
+.overlay ul li:hover {
+  background: #fff;
+  color: #000;
 }
-.box:hover .overlay {
-  height: 100%;
-}
-.icon{
+.icon {
   display: flex;
   flex-direction: row;
   gap: 30px;
   justify-content: center;
+}
+.webdev-icon {
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+.webdev-icon:hover {
+  color: #ccc;
 }

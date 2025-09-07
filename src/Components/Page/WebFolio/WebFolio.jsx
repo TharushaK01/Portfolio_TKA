@@ -39,46 +39,51 @@ const WebFolio = () => {
           <div className="wrapper">
             <div className="box-area">
               <div className="box">
-                <img src={Cargo_Ton} alt="" />
-                <h3>Cargo Ton Website</h3>
-                <ul>
-                  <li>React.js</li>
-                  <li>JavaScript (ES6+)</li>
-                  <li>HTML5</li>
-                  <li>Tailwind</li>
-                </ul>
-                <div className="icon">
-                  <FaGithub className="webdev-icon" />
-                  <FaExternalLinkAlt className="webdev-icon" />
+                <img src={Pramodya_Mobile} alt="Cargo Ton Website" />
+                <div className="overlay">
+                  <h3>Cargo Ton Website</h3>
+                  <ul>
+                    <li>React.js</li>
+                    <li>JavaScript (ES6+)</li>
+                    <li>HTML5</li>
+                    <li>Tailwind</li>
+                  </ul>
+                  <div className="icon">
+                    <FaGithub className="webdev-icon" />
+                    <FaExternalLinkAlt className="webdev-icon" />
+                  </div>
                 </div>
               </div>
               <div className="box">
-                <img src={Cargo_Ton} alt="" />
-                <h3>Cargo Ton Website</h3>
-                <ul>
-                  <li>React.js</li>
-                  <li>JavaScript (ES6+)</li>
-                  <li>HTML5</li>
-                  <li>Tailwind</li>
-                </ul>
-                <div className="icon">
-                  <FaGithub className="webdev-icon" />
-                  <FaExternalLinkAlt className="webdev-icon" />
+                <img src={Amre} alt="Cargo Ton Website" />
+                <div className="overlay">
+                  <h3>Cargo Ton Website</h3>
+                  <ul>
+                    <li>React.js</li>
+                    <li>JavaScript (ES6+)</li>
+                    <li>HTML5</li>
+                    <li>Tailwind</li>
+                  </ul>
+                  <div className="icon">
+                    <FaGithub className="webdev-icon" />
+                    <FaExternalLinkAlt className="webdev-icon" />
+                  </div>
                 </div>
               </div>
-
               <div className="box">
-                <img src={Cargo_Ton} alt="" />
-                <h3>Cargo Ton Website</h3>
-                <ul>
-                  <li>React.js</li>
-                  <li>JavaScript (ES6+)</li>
-                  <li>HTML5</li>
-                  <li>Tailwind</li>
-                </ul>
-                <div className="icon">
-                  <FaGithub className="webdev-icon" />
-                  <FaExternalLinkAlt className="webdev-icon" />
+                <img src={Cargo_Ton} alt="Cargo Ton Website" />
+                <div className="overlay">
+                  <h3>Cargo Ton Website</h3>
+                  <ul>
+                    <li>React.js</li>
+                    <li>JavaScript (ES6+)</li>
+                    <li>HTML5</li>
+                    <li>Tailwind</li>
+                  </ul>
+                  <div className="icon">
+                    <FaGithub className="webdev-icon" />
+                    <FaExternalLinkAlt className="webdev-icon" />
+                  </div>
                 </div>
               </div>
             </div>
