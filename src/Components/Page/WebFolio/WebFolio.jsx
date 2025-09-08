@@ -9,6 +9,9 @@ import Groopy from "../../../assets/groopy.webp";
 import Port from "../../../assets/oldprotfoio.webp";
 import Frank from "../../../assets/frankchawe.webp";
 import AG from "../../../assets/Agproducts.webp";
+import HD from "../../../assets/HDCamera.webp";
+import Closet from "../../../assets/closetenvee.webp";
+import Golden from "../../../assets/goldenlush.webp";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const projects = [
@@ -49,8 +52,8 @@ const projects = [
     live: "#",
   },
   {
-    img: AG,
-    title: "Cargo Ton Website",
+    img: Golden,
+    title: "Golden Lush",
     tech: ["React.js", "JavaScript (ES6+)", "HTML5", "Tailwind"],
     github: "#",
     live: "#",
@@ -67,12 +70,39 @@ const wordpressProjects = [
     live: "#",
   },
   {
-    img: "your_wordpress_image_2.webp",
-    title: "WordPress Site 2",
+    img: HD,
+    title: "HDCameraUSA",
     tech: ["WordPress", "WooCommerce", "CSS", "JavaScript"],
     github: "#",
     live: "#",
   },
+    {
+    img: Closet,
+    title: "Closet Envee",
+    tech: ["WordPress", "WooCommerce", "CSS", "JavaScript"],
+    github: "#",
+    live: "#",
+  },
+      {
+    img: Closet,
+    title: "Closet Envee",
+    tech: ["WordPress", "WooCommerce", "CSS", "JavaScript"],
+    github: "#",
+    live: "#",
+  },
+  // 👉 add more WordPress projects here
+];
+
+
+const WebflowProjects = [
+  {
+    img: Amre,
+    title: "Amre",
+    tech: ["WordPress", "Elementor", "PHP", "MySQL"],
+    github: "#",
+    live: "#",
+  },
+
   // 👉 add more WordPress projects here
 ];
 
@@ -165,6 +195,38 @@ const WebFolio = () => {
     </div>
   </div>
 
+
+
+
+  {/* 🔽 NEW SECTION FOR WEBFLOW */}
+  <h2>Webflow Webfolio</h2>
+  <div className="card-area">
+    <div className="wrapper">
+      <div className="box-area">
+        {wordpressProjects.map((project, index) => (
+          <div className="box" key={index}>
+            <img src={project.img} alt={project.title} />
+            <div className="overlay">
+              <h3>{project.title}</h3>
+              <ul>
+                {project.tech.map((tech, i) => (
+                  <li key={i}>{tech}</li>
+                ))}
+              </ul>
+              <div className="icon">
+                <a href={project.github} target="_blank" rel="noreferrer">
+                  <FaGithub className="webdev-icon" />
+                </a>
+                <a href={project.live} target="_blank" rel="noreferrer">
+                  <FaExternalLinkAlt className="webdev-icon" />
+                </a>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
 
 
 
