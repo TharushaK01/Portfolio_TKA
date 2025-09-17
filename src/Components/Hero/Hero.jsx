@@ -2,6 +2,7 @@ import React from 'react'
 import './Hero.css'
 import profile from '../../assets/profile.webp';
 
+
 const Hero = () => {
   return (
     <div className='hero'>
