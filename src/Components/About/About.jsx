@@ -1,5 +1,6 @@
 import React from 'react'
-import './About.css'
+import './About.css';
+
 
 const About = () => {
   return (
@@ -26,6 +27,7 @@ const About = () => {
                     </div>
                  </div>              
                 </div>
+                          
                 <div className="about-work-experiences">
                     <h3>Professional Experience</h3>
                     <div className="professional-experience">

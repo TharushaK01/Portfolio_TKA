@@ -1,143 +1,73 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./FlayerFolio.css";
-import Pramodya_Mobile from "../../../assets/Pramodya_Mobile.webp";
-import Amre from "../../../assets/Amre.webp";
-import Cargo_Ton from "../../../assets/Cargo_Ton.webp";
-import Cargo_Ton2 from "../../../assets/Cargo_Ton2.webp";
-import Groopy from "../../../assets/groopy.webp";
-import Port from "../../../assets/oldprotfoio.webp";
-import Frank from "../../../assets/frankchawe.webp";
-import AG from "../../../assets/Agproducts.webp";
-import HD from "../../../assets/HDCamera.webp";
-import Closet from "../../../assets/closetenvee.webp";
-import Golden from "../../../assets/goldenlush.webp";
-import Employee from "../../../assets/emp_mangmnt.webp";
-import Player from "../../../assets/music_player.webp";
-import Todo from "../../../assets/todo_list.webp";
-import Item from "../../../assets/itm_mngmnt.webp";
-import Age from "../../../assets/agecalculator.webp"
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import sandikala from "../../../assets/sandikala-dadu.webp";
+import grade from "../../../assets/2026-grade-6-2.webp";
+import CDsuthrya from "../../../assets/CD-suthrya7.webp";
+import online from "../../../assets/online-paper-class11.webp";
+import hasithasir from "../../../assets/hasithasir.webp";
+import ekstath from "../../../assets/Eksath-post3.webp";
+import rapid from "../../../assets/Rapid-Revision3.webp";
+import Hashan_1 from "../../../assets/Hashan_1.webp";
+import Tharkabasha from "../../../assets/Tharkabasha-seminar.webp";
+import Logic from "../../../assets/Logic-dilshan-sir-hand-bill-rathnapura.webp";
+import ekhandbil from "../../../assets/Eksath-hand-bill.webp";
+import nadun from "../../../assets/nadudnsir.webp";
+import book1 from "../../../assets/book1.webp";
+import book2 from "../../../assets/book2.webp";
+import book3 from "../../../assets/book3.webp";
 
 const projects = [
   {
-    img: Cargo_Ton,
-    title: "Cargo Ton Website",
-    tech: ["React.js", "Vite", "HTML5", " CSS3", "JavaScript (ES6+)"],
-    github: "https://github.com/TharushaK01/CargoTon.git",
-    live: "https://tharushak01.github.io/CargoTon/",
+    img: sandikala,
   },
   {
-    img: Cargo_Ton2,
-    title: "Cargo Ton Website",
-    tech: ["React.js", "Vite", "HTML5", " CSS3", "JavaScript (ES6+)"],
-    github: "https://github.com/TharushaK01/Cargo_Ton",
-    live: "https://tharushak01.github.io/Cargo_Ton/",
+    img: grade,
   },
   {
-    img: Groopy,
-    title: "A Group Booking Website",
-    tech: ["Angular", "Node.js", "Firebase", "TypeScript", "HTML5", "CSS3"],
-    github: "https://github.com/TharushaK01/Groopy",
-    // live: "#",
+    img: CDsuthrya,
   },
   {
-    img: Port,
-    title: "Portfolio Website",
-    tech: ["Angular", "TypeScript", "HTML5", "CSS3", "Bootstrap"],
-    github: "https://github.com/TharushaK01/TKA_Portfolio",
-    // live: "#",
+    img: online,
   },
   {
-    img: Frank,
-    title: "Frank Chawe Website",
-    tech: ["HTML5", "JavaScript (ES6+)", "SCSS"],
-    github: "https://github.com/TharushaK01/Frank_chawe",
-    live: "https://frankchawe.co.tz/",
+    img: hasithasir,
   },
   {
-    img: AG,
-    title: "AG Products",
-    tech: ["HTML5", "JavaScript (ES6+)", "SCSS"],
-    github: "https://github.com/TharushaK01/AGProducts",
-    live: "https://agproducts.co.tz/",
+    img: ekstath,
+  },
+  {
+    img: rapid,
+  },
+  {
+    img: Hashan_1,
+  },
+  {
+    img: Tharkabasha,
   },
 ];
 
 const wordpressProjects = [
   {
-    img: Pramodya_Mobile,
-    title: "Pramodya Mobile",
-    tech: ["WordPress", "Elementor", "WooCommerce", "PHP", "MySQL"],
-    live: "https://pramodyamobile.xo.je/?i=1",
+    img: Logic,
   },
   {
-    img: HD,
-    title: "HDCameraUSA",
-    tech: ["WordPress", "Divi", "CSS", "JavaScript", "PHP", "MySQL"],
-    // github: "#",
-    live: "https://www.hdcamera.todayfinancing.com/",
+    img: ekhandbil,
   },
   {
-    img: Closet,
-    title: "Closet Envee",
-    tech: ["WordPress", "Elementor", "CSS", "JavaScript", "PHP", "MySQL"],
-    // github: "#",
-    live: "https://trainee.todayfinancing.com/closetenvee/",
-  },
-  {
-    img: Golden,
-    title: "Closet Envee",
-    tech: ["WordPress", "Elementor", "CSS", "JavaScript", "PHP", "MySQL"],
-    // github: "#",
-    live: "https://goldenlushserum.com/",
+    img: nadun,
   },
 ];
 
 const WebflowProjects = [
   {
-    img: Amre,
-    title: "Amre",
-    tech: ["Webflow"],
-    // github: "#",
-    live: "https://amreaestheticswellnes.webflow.io/",
-  },
-];
-const fullstackProjects = [
-  {
-    img: Employee,
-    title: "Employee Management System",
-    tech: ["Angular", "Spring Boot ", "MySQL"],
-    github: "https://github.com/TharushaK01/Employee_Management_System",
-    // live: "#",
+    img: book1,
   },
   {
-    img: Player,
-    title: "React Music Player",
-    tech: ["React", "CSS3", "JavaScript (ES6+)"],
-    github: "https://github.com/TharushaK01/React_Music_Player",
-    // live: "#",
+    img: book2,
   },
   {
-    img: Item,
-    title: "Item Management System",
-    tech: ["Angular", "Spring Boot ", "MySQL"],
-    github: "https://github.com/TharushaK01/ItemManagementSystem",
-    // live: "#",
-  },
-  {
-    img: Todo,
-    title: "Angular ToDo Application",
-    tech: ["Angular", "TypeScript", "Firebase"],
-    github: "https://github.com/TharushaK01/AngularToDoApp_Firebase",
-    // live: "#",
-  },
-    {
-    img: Age,
-    title: "Age Calculator React App",
-    tech: ["React", "CSS", "JavaScript (ES6+)"],
-    github: "https://github.com/TharushaK01/AgeCalculatorReact",
-    // live: "#",
+    img: book3,
   },
 ];
 
@@ -158,150 +88,49 @@ const FlayerFolio = () => {
         </ul>
       </div>
 
-      <div className="Dynamic_Webfolio">
-        <h2>Social Media Flyerfolio</h2>
+      <div className="FlyerFolio">
+        <h2>Sociala Media Flyerfolio</h2>
         <div className="card-area">
           <div className="wrapper">
             <div className="box-area">
               {projects.map((project, index) => (
-                <div className="box" key={index}>
-                  <img src={project.img} alt={project.title} />
-                  <div className="overlay">
-                    <h3>{project.title}</h3>
-                    <ul>
-                      {project.tech.map((tech, i) => (
-                        <li key={i}>{tech}</li>
-                      ))}
-                    </ul>
-                    <div className="icon">
-                      {project.github && (
-                        <a
-                          href={project.github}
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FaGithub className="webdev-icon" />
-                        </a>
-                      )}
-                      {project.live && project.live.trim() !== "" && (
-                        <a href={project.live} target="_blank" rel="noreferrer">
-                          <FaExternalLinkAlt className="webdev-icon" />
-                        </a>
-                      )}
-                    </div>
-                  </div>
+                <div className="box hover-zoom" key={index}>
+                  <img src={project.img} alt={`book-${index}`} />
                 </div>
               ))}
             </div>
           </div>
         </div>
+        <div className="see_more"><Link to="https://www.facebook.com/TKAProducts"  target="_blank" >See More &rarr;</Link></div>
 
-        <h2>WordPress Webfolio</h2>
+        <h2>Handbillfolio</h2>
         <div className="card-area">
           <div className="wrapper">
             <div className="box-area">
               {wordpressProjects.map((project, index) => (
-                <div className="box" key={index}>
-                  <img src={project.img} alt={project.title} />
-                  <div className="overlay">
-                    <h3>{project.title}</h3>
-                    <ul>
-                      {project.tech.map((tech, i) => (
-                        <li key={i}>{tech}</li>
-                      ))}
-                    </ul>
-                    <div className="icon">
-                      {project.github && (
-                        <a
-                          href={project.github}
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FaGithub className="webdev-icon" />
-                        </a>
-                      )}
-                      <a href={project.live} target="_blank" rel="noreferrer">
-                        <FaExternalLinkAlt className="webdev-icon" />
-                      </a>
-                    </div>
-                  </div>
+                <div className="box hover-zoom" key={index}>
+                  <img src={project.img} alt={`book-${index}`} />
                 </div>
               ))}
             </div>
           </div>
         </div>
+<div className="see_more"><Link to="https://www.facebook.com/TKAProducts"  target="_blank" >See More &rarr;</Link></div>
 
-        <h2>Webflow Webfolio</h2>
+        <h2>Book Coverfolio</h2>
         <div className="card-area">
           <div className="wrapper">
             <div className="box-area">
               {WebflowProjects.map((project, index) => (
-                <div className="box" key={index}>
-                  <img src={project.img} alt={project.title} />
-                  <div className="overlay">
-                    <h3>{project.title}</h3>
-                    <ul>
-                      {project.tech.map((tech, i) => (
-                        <li key={i}>{tech}</li>
-                      ))}
-                    </ul>
-                    <div className="icon">
-                      {project.github && (
-                        <a
-                          href={project.github}
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FaGithub className="webdev-icon" />
-                        </a>
-                      )}
-                      <a href={project.live} target="_blank" rel="noreferrer">
-                        <FaExternalLinkAlt className="webdev-icon" />
-                      </a>
-                    </div>
-                  </div>
+                <div className="box hover-zoom" key={index}>
+                  <img src={project.img} alt={`book-${index}`} />
                 </div>
               ))}
             </div>
           </div>
         </div>
+<div className="see_more"><Link to="https://www.facebook.com/TKAProducts"  target="_blank" >See More &rarr;</Link></div>
 
-        <h2>Fullstack Webfolio</h2>
-        <div className="card-area">
-          <div className="wrapper">
-            <div className="box-area">
-              {fullstackProjects.map((project, index) => (
-                <div className="box" key={index}>
-                  <img src={project.img} alt={project.title} />
-                  <div className="overlay">
-                    <h3>{project.title}</h3>
-                    <ul>
-                      {project.tech.map((tech, i) => (
-                        <li key={i}>{tech}</li>
-                      ))}
-                    </ul>
-                    <div className="icon">
-                      {project.github && (
-                        <a
-                          href={project.github}
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FaGithub className="webdev-icon" />
-                        </a>
-                      )}
-                      {project.live && project.live.trim() !== "" && (
-                        <a href={project.live} target="_blank" rel="noreferrer">
-                          <FaExternalLinkAlt className="webdev-icon" />
-                        </a>
-                      )}
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );
