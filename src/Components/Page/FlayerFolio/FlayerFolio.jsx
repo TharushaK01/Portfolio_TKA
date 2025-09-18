@@ -141,25 +141,25 @@ const fullstackProjects = [
   },
 ];
 
-const WebFolio = () => {
+const FlayerFolio = () => {
   return (
-    <div className="webdeveopments">
-      <div className="webdev">
-        <h1>Web Development</h1>
-        <ul className="webdev-list">
+    <div className="flayerdesigns">
+      <div className="flayer-header">
+        <h1>Flyer Designs</h1>
+        <ul className="flyer-list">
           <li>Adobe Photoshop</li>
           <li>Adobe Illustrator</li>
-          <li>Coral Draw</li>
-          <li>Adobe Primier Pro</li>
+          <li>CoralDraw</li>
+          <li>Adobe Premiere Pro</li>
           <li>Adobe After Effects</li>
           <li>CapCut</li>
-          <li>Davinchi Resolve</li>
-          <li>Auda City</li>
+          <li>Davinci Resolve</li>
+          <li>Audacity</li>
         </ul>
       </div>
 
       <div className="Dynamic_Webfolio">
-        <h2>Dynamic Webfolio</h2>
+        <h2>Social Media Flyerfolio</h2>
         <div className="card-area">
           <div className="wrapper">
             <div className="box-area">
@@ -307,4 +307,4 @@ const WebFolio = () => {
   );
 };
 
-export default WebFolio;
+export default FlayerFolio;

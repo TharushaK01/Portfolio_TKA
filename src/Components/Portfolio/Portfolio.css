@@ -32,6 +32,41 @@
     margin: 20px 0;
     justify-content: center;
 }
+/* .card-web img{
+    width: 435px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.card-web img:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+} */
+
+
+.card-web {
+    width: 435px;
+    height: 435px;           
+    overflow: hidden;        
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.card-web img {
+    width: 100%;
+    height: auto;
+    transition: transform 5s ease; 
+    border-radius: 20px;
+    display: block;
+}
+
+
+.card-web:hover img {
+    transform: translateY(calc(-100% + 435px));
+}
+
+
 .card img{
     width: 435px;
     border-radius: 20px;

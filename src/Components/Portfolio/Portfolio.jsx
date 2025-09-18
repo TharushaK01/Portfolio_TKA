@@ -19,13 +19,13 @@ const Portfolio = () => {
             <div className="foliorow">
                 <h3>Web Folio</h3>
                     <div className="folio">
-                        <div className="card">
+                        <div className="card-web">
                             <img src={Pramodya_Mobile} alt=''/>
                         </div>
-                        <div className="card">
+                        <div className="card-web">
                             <img src={Amre} alt=''/>
                         </div>
-                        <div className="card">
+                        <div className="card-web">
                             <img src={Cargo_Ton} alt=''/>
                         </div>
                     </div>
@@ -33,7 +33,7 @@ const Portfolio = () => {
             </div>
 
              <div className="foliorow">
-                <h3>Flayer Folio</h3>
+                <h3>Flyer Folio</h3>
                     <div className="folio">
                         <div className="card">
                             <img src={Hasitha} alt=''/>
