@@ -1,162 +1,76 @@
-.about{
-    /* margin-top: 10%; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 40px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.about-title {
+  max-width: 900px;
+  text-align: center;
+}
+
+.about-title h2 {
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+.about-para {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 30px 0 50px;
+  text-align: left;
+  text-align: justify;  
+}
+
+/* ✅ Two-column layout */
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px; /* perfect space between columns */
+  max-width: 1200px;
+  width: 100%;
+}
+
+/* Left column → Skills */
+.about-skills {
+  flex: 1;
+  order: 1; /* Skills on LEFT */
+}
+
+.about-skills h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  background: linear-gradient(270deg, #000cff 90%, #36b6ff 106%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Right column → Experience */
+.about-work-experiences {
+  flex: 1;
+  order: 2; /* Experience on RIGHT */
+  margin: 0;
+}
+
+.about-work-experiences h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  background: linear-gradient(270deg, #000cff 80%, #36b6ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ✅ Responsive (stacked layout on small screens) */
+@media (max-width: 900px) {
+  .about-container {
     flex-direction: column;
-    height: 100vh;
-}
-.about-title{
-    position: relative;
-}
-.about-title h2{
-    text-align: center;
-    font-size: 30px;
-    padding: 0 30px;
-    margin-top: 40px;
-}
-.about-para{
-    text-align: left;
-    font-size: 16px;
-    line-height: 23px;
-    margin: 40px 0;
-}
-/* .about-skills{
-   display: flex;
-   gap: 320px;
-   align-items: flex-start;
-}*/
-.skills-left h3{
-    flex: 0 0 150px;
-    flex-direction: column;
-    font-size: 24px;
-    background: linear-gradient(270deg, #000cff 80%, #36b6ff 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-/*
-.skills-right{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-.about-skill{
-    display: flex;
-    gap:50px;
-    align-items: center;
-    transition: 0.3s;
-}
-.about-skill p {
-    min-width: 150px;
-    font-size: 18px;
-}
-.about-skill hr{
-    outline: none;
-    border: none;
-    width: 50%;
-    height: 8px;
-    border-radius: 50px;
-    background: linear-gradient(264deg, #000cff -5.09%, #36b6ff 106.28%);
-}
-.about-skill:hover{
-    transform: scale(1.05);
-    transition: 0.3s;
-    cursor: pointer;
-} */
-.about-work-experiences{
-    position: relative;
-    margin: 40px 0;
-}
-.about-work-experiences h3{
-    display: flex;
-    font-size: 24px;
-    background: linear-gradient(270deg, #000cff 80%, #36b6ff 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.professional-experience{
-    display: flex;
     gap: 30px;
-    align-items: flex-start;
-    margin: 40px 0;
-}
-.experience-left{
-    flex: 0 0 350px;
-    flex-direction: column;
-}
-.experience-left h4{
-    font-size: 20px;
-    margin: 10px 0;
-}
-.experience-left h5{
-    font-size: 18px;
-    color: #676774;
-}
-.experience-right{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
-.experience-right h4{
-    font-size: 20px;
-    margin: 10px 0;
-    display: block;
-    margin-left: auto;
-    margin-right: 0;
-    color: #676774;
-}
-.experience-right p{
-    font-size: 16px;
-    line-height: 23px;
-    color: #F1F0E4;
-}
-.experience-right p span{
-    font-size: 17px;
-    font-weight: 700;
-    color: #fff;
-}
-/* .experience-right li{
-    transform: scale(1.05);
-    transition: 0.3s;
-} */
-.experience-point:hover{
-    transform: scale(1.05);
-    transition: 0.3s;
-    cursor: pointer;
- }
-.about-education{
-    position: relative;
-    margin: 40px 0;
-}
-.about-education h3{
-    display: flex;
-    font-size: 24px;
-    background: linear-gradient(270deg, #000cff 93%, #36b6ff 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.education{
-    display: flex;
-    gap: 30px;
-    align-items: flex-start;
-}
-.education-left h4{
-    font-size: 20px;
-    margin: 10px 0;
-}
-.education-left h5{
-    font-size: 18px;
-    color: #676774;
-}
-.education-right{
-    font-size: 20px;
-    margin: 10px 0;
-    display: block;
-    margin-left: auto;
-    margin-right: 0;
-    color: #676774;
+  }
 }
