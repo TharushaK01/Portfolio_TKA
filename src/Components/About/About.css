@@ -45,7 +45,7 @@
 .about-skills h3 {
   font-size: 24px;
   margin-bottom: 20px;
-  background: linear-gradient(270deg, #000cff 90%, #36b6ff 106%);
+  background: linear-gradient(270deg, #000cff 80%, #36b6ff 106%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -61,7 +61,7 @@
 .about-work-experiences h3 {
   font-size: 24px;
   margin-bottom: 20px;
-  background: linear-gradient(270deg, #000cff 80%, #36b6ff 100%);
+  background: linear-gradient(270deg, #000cff 60%, #36b6ff 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

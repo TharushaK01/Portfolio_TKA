@@ -5,7 +5,7 @@
   padding: 20px 0;
 }
 
-/* Animated glowing timeline line */
+
 .timeline::before {
   content: '';
   position: absolute;
@@ -42,14 +42,14 @@
   box-shadow: 0 8px 25px rgba(0,0,0,0.5);
 }
 
-/* Collapsed state */
+
 .timeline-item.collapsed {
   height: 60px;
   overflow: hidden;
    transition: height 0.3s ease;
 }
 
-/* Circle markers */
+
 .timeline-item::before {
   content: '';
   position: absolute;
@@ -72,7 +72,6 @@
 }
 
 
-/* Title and Date */
 .timeline-item .title {
   font-size: 18px;
   font-weight: 600;
@@ -81,10 +80,22 @@
   display: flex;
   justify-content: space-between;
 }
+
+.timeline-item .title-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-item .subtitle {
+  font-size: 14px;
+  color: #94a3b8; 
+  font-weight: 400;
+  margin-top: -5px; 
+}
 .timeline-item .right-section {
   display: flex;
   align-items: center;
-  gap: 50px; /* spacing between date and ^ */
+  gap: 50px; 
 }
 .timeline-item .title .date {
   font-size: 14px;
@@ -92,14 +103,14 @@
   font-weight: 400;
 }
 
-/* Details */
+
 .timeline-item .details {
   margin: 12px 0;
   line-height: 1.6;
   color: #cbd5e1;
 }
 
-/* Skills as glowing badges */
+
 .timeline-item .skills {
   display: flex;
   gap: 10px;
@@ -121,7 +132,7 @@
   box-shadow: 0 0 12px rgba(147, 51, 234, 0.8);
 }
 
-/* Toggle button */
+
 .toggle-btn {
   position: absolute;
   top: 10px;
@@ -135,8 +146,8 @@
 }
 
 .toggle-btn.open {
-  transform: rotate(180deg);
+  transform: rotate(-180deg);
 }
 .timeline-item.collapsed .toggle-btn {
-  transform: rotate(-180deg); /* icon rotates when collapsed */
+  transform: rotate(180deg); 
 }
