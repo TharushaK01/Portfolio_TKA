@@ -7,8 +7,8 @@ const Hero = () => {
   return (
     <div className='hero'>
         <div className="hero-text">
-        <h1><span>I'm Tharusha Kavinda,</span> Full Stack Developer | Specializing in Scalable Web Applications</h1>
-        <p>Computer Science graduate and Full Stack Developer with experience in frontend and backend development. Skilled in React, Next.js, Angular, Node.js, Spring Boot, and WordPress. Passionate about building scalable, responsive, and user-focused web applications.</p>
+        <h1><span>I'm Tharusha Kavinda</span> | Full Stack Developer • Digital Designer • Brand Creator</h1>
+        <p>Full stack developer and digital designer, building scalable web apps and creative brands.</p>
         <div className="hero-action">
             <div className="hero-connect">Connect With Me</div>
             <div className="hero-resume">My Resume</div>

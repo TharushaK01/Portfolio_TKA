@@ -1,4 +1,5 @@
 .about{
+    /* margin-top: 10%; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,20 +21,21 @@
     line-height: 23px;
     margin: 40px 0;
 }
-.about-skills{
+/* .about-skills{
    display: flex;
    gap: 320px;
    align-items: flex-start;
-}
+}*/
 .skills-left h3{
     flex: 0 0 150px;
     flex-direction: column;
     font-size: 24px;
-    background: linear-gradient(270deg, #000cff 2%, #36b6ff 100%);
+    background: linear-gradient(270deg, #000cff 80%, #36b6ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+/*
 .skills-right{
     flex: 1;
     display: flex;
@@ -62,7 +64,7 @@
     transform: scale(1.05);
     transition: 0.3s;
     cursor: pointer;
-}
+} */
 .about-work-experiences{
     position: relative;
     margin: 40px 0;

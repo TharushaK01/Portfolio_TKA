@@ -14,6 +14,7 @@ import FlayerFolio from './Components/Page/FlayerFolio/FlayerFolio';
 import LogoFolio from './Components/Page/LogoFolio/LogoFolio';
 import Layout from './Components/Layout';
 
+
 const App = () => {
   return (
   <Router>
@@ -29,6 +30,7 @@ const App = () => {
               <Portfolio />
               <TestimonialSlider />
               <Contact />
+          
             </Layout>
           }
         />
