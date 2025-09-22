@@ -10,12 +10,35 @@ import Massa from '../../assets/Massa.webp'
 import Manulak from '../../assets/Manulak.webp'
 import Thawana from '../../assets/Thawana.webp'
 import { Link } from 'react-router-dom'
+import ThreeDCarousel, { ThreeDCarouselItem } from "../../Components/lightswind/3d-carousel"
 
 const Portfolio = () => {
   return (
     <div className='portfolio'>
         <h2>Portfolio</h2>
-        <div className="type-folio">
+<div className="type-folio">
+const items: ThreeDCarouselItem[] = [
+  {
+    id: 1,
+    title: "6th SENSE Safety System",
+    brand: "FireCat Group",
+    description: "AI-driven smart uniform tech for law enforcement, military & firefighters.",
+    tags: ["Safety", "Military", "AI Sensors", "Monitoring"],
+    imageUrl: "/img/firecat.jpg",
+    link: "/projects/firecat"
+  }
+];
+
+<ThreeDCarousel 
+  items={items}
+  autoRotate={true}
+  rotateInterval={4000}
+  cardHeight={500}
+/>
+
+
+
+
             <div className="foliorow">
                 <h3>Web Folio</h3>
                     <div className="folio">
