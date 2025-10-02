@@ -10,9 +10,9 @@ const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const cards = [
     {
-      title: "Ecommerce UI",
-      description: "Lightswind UI\nComplete ecommerce UI interfaces, checkout flow",
-      tags: ["UI Kit"],
+      title: "Pramodya Mobile E commerce website",
+      description: "Pramodya Mobile is your trusted online store for quality mobile accessories at affordable prices. From cases and chargers to headphones and gadgets, we deliver everything you need to upgrade your mobile experience.",
+      tags: ["WooCommerce", "Elementor", "RankMath", "WP Fastest Cache", "WP Fastest Cache", "Wordfence Security", "UpdraftPlus", "WPForms Lite"],
       image: Pramodya_Mobile,
     },
     {
