@@ -23,7 +23,7 @@ const LogoFolio = () => {
  return (
     <div className="logodesigns">
       <div className="logo-header">
-        <h1>Flyer Designs</h1>
+        <h1>Logo Designs</h1>
         <ul className="logo-list">
           <li>Adobe Photoshop</li>
           <li>Adobe Illustrator</li>
