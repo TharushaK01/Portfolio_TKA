@@ -104,4 +104,36 @@
   display: flex;
     flex-wrap: nowrap;
  }
+ .logo-list li{
+  padding: 8px 16px;
+  font-size: 14px;
+  flex-shrink: 0;
+ }
+ .LogoFolio h2 {
+  font-size: 22px;
+ }
+ .LogoFolio .see_more a{
+    padding: 8px 16px;   
+    font-size: 14px;   
+ }
+}
+@media (max-width: 480px) {
+  .logodesigns {
+    margin-top: 30px;
+  }
+  .logo-header h1 {
+    font-size: 20px;
+  }
+  .logo-list {
+    font-size: 12px;
+    gap: 8px;
+    margin: 15px 0;
+  }
+  .logo-list li{
+    padding: 6px 12px;
+    font-size: 12px;
+   }
+   .LogoFolio h2 {
+    font-size: 18px;
+   }
 }
