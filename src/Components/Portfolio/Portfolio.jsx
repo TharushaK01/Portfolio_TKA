@@ -13,7 +13,7 @@ import Carousel from './Carousel'
 const Portfolio = () => {
 
   return (
-    <div className='portfolio'>
+    <div className='portfolio' id='portfolio'>
       <h2>Portfolio</h2>
 
       <div className="type-folio">
@@ -21,6 +21,7 @@ const Portfolio = () => {
         <div className="foliorow">
           <h3>Web Folio</h3>
          <Carousel/>
+          <div className="see_more"><Link to="/web-folio"  target="" >See More &rarr;</Link></div>
         </div>
 
         <div className="foliorow">

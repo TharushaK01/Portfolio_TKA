@@ -4,7 +4,7 @@ import profile from '../../assets/profile.webp';
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div className="hero" id='home'> 
       <div className="hero-text">
         <h1>
           <span>I'm Tharusha Kavinda</span> | Full Stack Developer • Digital Designer • Brand Creator

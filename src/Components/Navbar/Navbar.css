@@ -16,6 +16,18 @@
   font-weight: 600;
   cursor: pointer;
 }
+.nav-menu li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+.nav-menu li a:hover {
+  color: #36b6ff;
+}
+.nav-connect a {
+  text-decoration: none;
+  color: #fff;
+}
 .nav-connect {
   padding: 15px 20px;
   border-radius: 50px;
