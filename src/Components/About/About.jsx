@@ -5,7 +5,7 @@ import Experience from "../../Components/About/Experience";
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="about-title">
         <h2>About Me</h2>
         <div className="about-para">
